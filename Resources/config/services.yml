@@ -1,0 +1,9 @@
+services:
+    Sketcher\Bundle\RestBundle\:
+        resource: '../../*'
+        exclude: '../../{Entity,Migrations,Tests}'
+
+    Sketcher\Bundle\RestBundle\Controller\:
+        resource: '../../Controller'
+        tags: ['controller.service_arguments']
+

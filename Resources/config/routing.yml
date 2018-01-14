@@ -1,0 +1,7 @@
+sketcher_rest_homepage:
+    path:     /
+    defaults: { _controller: SketcherRestBundle:Default:index }
+
+rest:
+    resource: "../../Controller"
+    type:     annotation
