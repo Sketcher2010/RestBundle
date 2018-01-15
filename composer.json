@@ -1,6 +1,7 @@
 {
   "type": "bundle",
   "license": "proprietary",
+  "name": "Sketcher/RestBundle",
   "require": {
     "php": "^7.0"
   },
